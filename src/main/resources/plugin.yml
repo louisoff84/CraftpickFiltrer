@@ -1,0 +1,20 @@
+name: CraftpickFiltrer
+version: ${project.version}
+main: fr.craftpick.filtrer.CraftpickFiltrer
+author: louisoff84
+description: Filtre de chat configurable et compatible avec de nombreuses versions Minecraft.
+commands:
+  craftpickfiltrer:
+    aliases: [cpf, filtre]
+    description: Administration de CraftpickFiltrer
+    usage: /<command> reload
+permissions:
+  craftpickfiltrer.admin:
+    description: Recharge la configuration du plugin
+    default: op
+  craftpickfiltrer.bypass:
+    description: Ignore entièrement le filtre
+    default: op
+  craftpickfiltrer.alerts:
+    description: Affiche les messages bloqués au staff
+    default: op

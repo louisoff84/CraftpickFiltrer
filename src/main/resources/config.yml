@@ -1,0 +1,22 @@
+blocked-words:
+  - "insulte1"
+  - "insulte2"
+blocked-regex: []
+
+block-links: true
+block-caps: true
+staff-alerts: true
+
+anti-spam:
+  enabled: true
+  delay-ms: 1200
+
+caps:
+  minimum-letters: 8
+  maximum-ratio: 0.75
+
+messages:
+  blocked: "&8[&cFiltre&8] &cTon message a été bloqué : &f%reason%&c."
+  staff-alert: "&8[&cFiltre&8] &e%player%&7 : %message% &8(&c%reason%&8)"
+  reloaded: "&8[&aFiltre&8] &aConfiguration rechargée."
+  no-permission: "&cTu n'as pas la permission."
